@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/elena-dolgova/CLionProjects/2019-ha2-bignum-ElenaDolgova/bignum.hpp
+vector
+-
+string
+-
+sstream
+-
+cmath
+-
+
+/Users/elena-dolgova/CLionProjects/2019-ha2-bignum-ElenaDolgova/smoke_test.cpp
+cassert
+-
+iostream
+-
+bignum.hpp
+/Users/elena-dolgova/CLionProjects/2019-ha2-bignum-ElenaDolgova/bignum.hpp
+
